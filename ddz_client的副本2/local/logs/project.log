@@ -1,0 +1,84 @@
+2022-05-25T02:24:13.402Z - normal: Load ~/.CocosCreator/settings.json
+2022-05-25T02:24:13.405Z - normal: checking language setting...
+2022-05-25T02:24:13.405Z - normal: Language: zh
+2022-05-25T02:24:13.872Z - success: protocol editor-framework registered
+2022-05-25T02:24:13.873Z - success: protocol app registered
+2022-05-25T02:24:13.873Z - success: protocol theme registered
+2022-05-25T02:24:13.873Z - success: protocol packages registered
+2022-05-25T02:24:13.873Z - success: protocol unpack registerred
+2022-05-25T02:24:13.873Z - success: protocol disable-commonjs registerred
+2022-05-25T02:24:13.955Z - normal: connected!
+2022-05-25T02:24:13.956Z - normal: Check project /Users/bytedance/Desktop/ddz_game-master/ddz_client的副本2
+2022-05-25T02:24:13.960Z - normal: Initializing project /Users/bytedance/Desktop/ddz_game-master/ddz_client的副本2
+2022-05-25T02:24:13.963Z - normal: Initializing Cocos2d
+2022-05-25T02:24:14.713Z - normal: Initializing Asset Database
+2022-05-25T02:24:14.744Z - success: protocol uuid registerred
+2022-05-25T02:24:14.744Z - success: protocol db registerred
+2022-05-25T02:24:14.744Z - success: protocol thumbnail registerred
+2022-05-25T02:24:14.745Z - normal: Loading editor/builtin packages
+2022-05-25T02:24:14.852Z - success: assets loaded
+2022-05-25T02:24:14.854Z - success: builder loaded
+2022-05-25T02:24:14.855Z - success: cocos-analytics loaded
+2022-05-25T02:24:14.862Z - success: console loaded
+2022-05-25T02:24:14.891Z - success: fb-instant-games loaded
+2022-05-25T02:24:14.896Z - success: hierarchy loaded
+2022-05-25T02:24:14.899Z - success: inspector loaded
+2022-05-25T02:24:14.900Z - success: keystore loaded
+2022-05-25T02:24:14.904Z - success: node-library loaded
+2022-05-25T02:24:14.905Z - success: package-asset loaded
+2022-05-25T02:24:14.906Z - success: preferences loaded
+2022-05-25T02:24:14.909Z - success: project-exporter loaded
+2022-05-25T02:24:14.920Z - success: project-importer loaded
+2022-05-25T02:24:14.922Z - success: project-settings loaded
+2022-05-25T02:24:14.928Z - success: ui-kit loaded
+2022-05-25T02:24:14.932Z - success: scene loaded
+2022-05-25T02:24:14.933Z - success: sprite-editor loaded
+2022-05-25T02:24:14.936Z - success: store loaded
+2022-05-25T02:24:14.940Z - success: timeline loaded
+2022-05-25T02:24:14.941Z - normal: Loading builtin packages
+2022-05-25T02:24:14.946Z - success: asset-db-debugger loaded
+2022-05-25T02:24:14.947Z - success: color-picker loaded
+2022-05-25T02:24:14.948Z - success: jsb-adapter loaded
+2022-05-25T02:24:14.952Z - success: package-manager loaded
+2022-05-25T02:24:14.952Z - success: qqplay-adapter loaded
+2022-05-25T02:24:14.964Z - success: sdkbox loaded
+2022-05-25T02:24:14.968Z - success: tester loaded
+2022-05-25T02:24:14.973Z - success: ui-grid loaded
+2022-05-25T02:24:14.975Z - success: ui-kit-preview-extra loaded
+2022-05-25T02:24:14.979Z - success: ui-kit-preview loaded
+2022-05-25T02:24:14.982Z - success: ui-tree loaded
+2022-05-25T02:24:14.983Z - success: weapp-adapter loaded
+2022-05-25T02:24:15.759Z - normal: Loading packages
+2022-05-25T02:24:15.916Z - success: im-plugin loaded
+2022-05-25T02:24:15.916Z - normal: Watching packages
+2022-05-25T02:24:16.035Z - normal: Run Application
+2022-05-25T02:24:16.433Z - error: Error: EROFS: read-only file system, open '/Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/static/default-assets/image/default_btn_disabled.png.meta'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at Object.save (/Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/meta.js:1:2741)
+    at i.series.t (/Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:4524)
+    at /Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:726:13
+    at /Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:269:32
+    at /Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at /Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:723:17
+    at process.on.e (/Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
+2022-05-25T02:24:16.435Z - error: Error: EROFS: read-only file system, open '/Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/static/default-assets/image/default_btn_normal.png.meta'
+    at Object.fs.openSync (fs.js:584:18)
+    at Object.module.(anonymous function) [as openSync] (ELECTRON_ASAR.js:191:20)
+    at Object.fs.writeFileSync (fs.js:1326:33)
+    at Object.save (/Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/meta.js:1:2741)
+    at i.series.t (/Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/asset-db/lib/tasks.js:1:4524)
+    at /Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:726:13
+    at /Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:52:16
+    at /Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:269:32
+    at /Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:44:16
+    at /Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/node_modules/async/lib/async.js:723:17
+    at process.on.e (/Volumes/Cocos Creator/CocosCreator.app/Contents/Resources/app.asar/editor/core/editor-init.js:1:345)
+    at emitOne (events.js:101:20)
+    at process.emit (events.js:191:7)
+    at process._fatalException (bootstrap_node.js:308:26)
